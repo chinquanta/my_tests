@@ -1,0 +1,18 @@
+ux@L:~/aaa/python/tests/my_tests/issue-04$ pytest one_hot_encoder.py -v
+=============================================== test session starts ===============================================
+platform linux -- Python 3.10.6, pytest-7.2.0, pluggy-1.0.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/ux/aaa/python/tests/my_tests/issue-04
+collected 9 items                                                                                                 
+
+one_hot_encoder.py::test_empty_list PASSED                                                                  [ 11%]
+one_hot_encoder.py::test_empty_set PASSED                                                                   [ 22%]
+one_hot_encoder.py::test_empty_dict PASSED                                                                  [ 33%]
+one_hot_encoder.py::test_none PASSED                                                                        [ 44%]
+one_hot_encoder.py::test_string_1 PASSED                                                                    [ 55%]
+one_hot_encoder.py::test_string_2 PASSED                                                                    [ 66%]
+one_hot_encoder.py::test_list_string PASSED                                                                 [ 77%]
+one_hot_encoder.py::test_set_string_1 PASSED                                                                [ 88%]
+one_hot_encoder.py::test_set_string_2 PASSED                                                                [100%]
+
+================================================ 9 passed in 0.01s ================================================

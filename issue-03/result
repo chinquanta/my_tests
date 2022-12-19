@@ -1,0 +1,15 @@
+$ python one_hot_encoder.py -v
+test_empty_dict (__main__.TestFT) ... ok
+test_empty_list (__main__.TestFT) ... ok
+test_empty_set (__main__.TestFT) ... ok
+test_list_string (__main__.TestFT) ... ok
+test_none (__main__.TestFT) ... ok
+test_set_string_1 (__main__.TestFT) ... ok
+test_set_string_2 (__main__.TestFT) ... ok
+test_string_1 (__main__.TestFT) ... ok
+test_string_2 (__main__.TestFT) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK
